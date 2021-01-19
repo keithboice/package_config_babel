@@ -1,11 +1,11 @@
-# package_config_%name%
+# package_config_babel
 
 ## Usage
 
 **Install**:
 
 ```bash
-$ npm i %name%
+$ npm i babel
 ```
 
 **Edit `package.json`**:
@@ -13,6 +13,6 @@ $ npm i %name%
 ```jsonc
 {
   // ...
-  "%external%": "%name%"
+  "babel": "babel"
 }
 ```
