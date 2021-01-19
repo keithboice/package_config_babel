@@ -1,9 +1,15 @@
 {
-  "name": "package_config_%remote%",
+  "name": "package_config_babel",
   "version": "1.0.0",
-  "description": "KB %remote% config",
-  "main": "index.yml",
-  "repository": "git@github.com:keithboice/package_config_%remote%.git",
+  "description": "KB babel config",
+  "main": "index.json",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": "git@github.com:keithboice/package_config_babel.git",
+  "keywords": [
+    "babel"
+  ],
   "author": "Keith Boice <keith.boice.work@gmail.com>",
-  "license": "MIT"
+  "license": "ISC"
 }
