@@ -2,14 +2,32 @@
   "name": "package_config_babel",
   "version": "1.0.0",
   "description": "KB babel config",
-  "main": "index.json",
+  "main": ".babelrc",
   "scripts": {
     "test": "test"
   },
-  "repository": "git@github.com:keithboice/package_config_babel.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keithboice/package_config_babel.git"
+  },
   "keywords": [
     "babel"
   ],
-  "author": "Keith Boice <keith.boice.work@gmail.com>",
-  "license": "ISC"
+  "author": "Keith Boice",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/keithboice/package_config_babel/issues"
+  },
+  "homepage": "https://github.com/keithboice/package_config_babel#readme",
+  "peerDependencies": {
+    "@babel/cli": "7.x",
+    "@babel/core": "7.x",
+    "@babel/eslint-parser": "7.x",
+    "@babel/eslint-plugin": "7.x",
+    "@babel/node": "7.x",
+    "@babel/preset-env": "7.x",
+    "@babel/preset-flow": "7.x",
+    "@babel/register": "7.x",
+    "babel-eslint": "10.x"
+  }
 }
